@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_KM9",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_KM9.cpp"],
+    recovery_available: true,
+}
